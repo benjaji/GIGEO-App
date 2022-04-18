@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap');
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.navbar{
+    background-color: white;
+}
+.nav-link i{
+    color: black;
+    list-style: none;
+    font-size: 1.3rem;
+}
+.logo{
+    font-weight: 400;
+    font-size: 2rem;
+}
+.art{
+    font-size: 0.8rem;
+    position: relative;
+    bottom: 16px;
+}
+.last-link{
+    color: rgb(70, 70, 70)!important;
+}
+.banner{
+    width: 100%;
+    height: 500px;
+    background-image: url("../img/image-banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.profile{
+    box-sizing: border-box;
+    padding-top: 30px;
+}
+.profile-info{
+    display: inline-block;
+}
+.profile-info img{
+    border-radius: 100%;
+    width: 70px;
+    position: relative;
+    bottom: 15px;
+}
+.text{
+    display: inline-block;
+    margin-left: 20px;
+}
+h2{
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin: 0;
+}
+h5{
+    font-weight: 300;
+    font-size: 1.1rem;
+    margin: 0;
+    color: rgb(70, 70, 70);
+}
+.profile-buttons{
+    display: inline-block;
+    float: right;
+}
+.miboton{
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 90px;
+}
+.miboton a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+.btn-1{
+    background-color: #92dce5;
+    margin-right: 10px;
+}
+.btn-2{
+    background-color: #ef6461;
+}
+.grid{
+    display: grid;
+    column-gap: 20px;
+    grid-template-columns: auto auto auto auto;
+    width: 100%;
+    row-gap: 40px;
+}
+.grid-item img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+h3{
+    font-weight: 700;
+    font-size: 1rem;
+    margin: 0;
+}
+h4{
+    font-weight: 300;
+    font-size: 1rem;
+}
+h6{
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+hr{
+    height: 1px;
+    width: 100%;
+    color: rgb(70, 70, 70);
+    margin-top: 0;
+    margin-bottom: 30px;
+}
